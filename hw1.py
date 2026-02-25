@@ -14,6 +14,7 @@ print(total_bill_int)
 total_bill_str=str(total_bill_int)
 import random
 delivery_charge=random.randrange(5,10)
+print("The delivery charge is: ", delivery_charge)
 total_bill_with_delivery=total_bill_int+delivery_charge
 print("The total bill with delivery charge is: ", total_bill_with_delivery)
                                 
